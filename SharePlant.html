@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile Demos</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<script src="js/jquery.js"></script>
+	<script src="_assets/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+    
+    <style>
+    
+        .box{
+            
+            width:200px;
+            height:200px;
+            
+             font-size:200%;
+            padding-top:100px;
+            padding-left:30px;
+            position:relative;
+            border-radius:30px;
+            position:relative;
+                  
+        }
+        
+        .yellow{
+            
+            background-color:yellow;
+                          
+                      
+        }
+        
+        .dotted{
+            
+        border-style:dotted;
+            border-color:blue;
+            margin-left:30px;
+            margin-top:30px;
+            padding:50px;
+            padding-left:35px;
+            font-size:120%;
+            color:gray;
+            
+            
+            
+            
+        }
+        
+        
+        
+        
+        .blue{
+            
+            background-color:gray;
+     
+        }
+        
+        .footer{
+            
+            padding:0px;
+            margin: 0px;
+            
+        }
+        
+        span {
+            
+            padding:0;
+            margin:0;
+            
+        }
+        
+        
+        
+       
+    
+    
+    </style>
+    
+    </head>
+    
+<body>
+
+    	 
+    
+<div data-role="page" class="jqm-demos jqm-home">
+
+<div data-role="header">
+		
+    <h3>Share a Plant</h3>
+    
+    <div data-role="navbar">
+    <ul>
+      <li><a href="Index.html">Back</a></li>
+
+    </ul>
+  </div>
+    
+		
+		
+	</div><!-- /header -->
+    
+
+        
+        
+<form method="post" action="demoform.asp">
+  <label for="fname">Name of Plant</label>
+  <input type="text" name="fname" id="fname">
+
+<h3> Select Plant Type</h3>
+    
+    
+    <div data-role="controlgroup" data-type="vertical">
+      <p>Choose a Plant</p>
+      <a href="#" class="ui-btn">Trees</a>
+      <a href="#" class="ui-btn">Shrubs</a>
+      <a href="#" class="ui-btn">Succulent</a>
+        <a href="#" class="ui-btn">Evergreen</a>
+    </div>
+  
+    
+</form>    
+    
+    
+    <div class="box dotted"><span>Tap Here to Upload Picture</span></div>
+    
+    <button>SUBMIT</button>
+    
+        
+    </div>
+    
+</body>
+    
+    
+    
+</html>

@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile Demos</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<script src="js/jquery.js"></script>
+	<script src="_assets/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+    
+    <style>
+    
+        .box{
+            
+            width:200px;
+            height:200px;
+            margin-left:50px;
+             font-size:200%;
+            padding-top:100px;
+            padding-left:50px;
+            position:relative;
+                  
+        }
+        
+        .yellow{
+            
+            background-color:yellow;
+                          
+                      
+        }
+        
+        
+        
+        
+        .blue{
+            
+            background-color:blue;
+     
+        }
+        
+        span{
+            
+            
+            
+            
+        }
+    
+    
+    </style>
+    
+    
+<body>
+<div data-role="page" class="jqm-demos jqm-home">
+
+	<div data-role="header" class="jqm-header">
+		<h2>Bagh | باغ </h2>
+		
+		
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content jqm-content">
+
+		<div class="box yellow"> <a href="SharePlant.html"><span>SHARE</span></a></div><br/>
+        <div class="box blue"><span>EXPLORE</span></div>
+       
+
+	</div><!-- /content -->
+	
+
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p>BaghBagh <span class="jqm-version"></span></p>
+		
+	</div><!-- /footer -->
+	
+
+</div><!-- /page -->
+    
+    
+    <script>
+    
+        $(".box").mouseover(function(){
+            
+            
+            $(this).css("font-size","250%");
+            
+            
+        });
+        
+        
+        $(".box").mouseout(function(){
+            
+            
+            $(this).css("font-size","200%");
+            
+            
+        });
+    
+    
+    </script>
+
+</body>
+</html>
